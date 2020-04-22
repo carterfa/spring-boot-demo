@@ -8,14 +8,14 @@ import javax.sql.DataSource;
 
 @Configuration
 public class PersistenceConfiguration {
-
-    @Bean
-    public DataSource dataSource(){
-
-        DataSourceBuilder builder = DataSourceBuilder.create();
-
-        builder.url("jdbc:mysql://localhost:3306/conference_demo");
-        return builder.build();
-
-    }
+//
+//    @Bean
+//    public DataSource dataSource(){
+//
+//        DataSourceBuilder builder = DataSourceBuilder.create();
+//
+//        builder.url("jdbc:mysql://localhost:3306/conference_demo");
+//        return builder.build();
+//
+//    }
 }
